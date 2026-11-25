@@ -348,7 +348,7 @@ section { padding: 70px 0; }
   animation: pulseTelegram 2s infinite;
 }
 .float-btn.max {
-  background: linear-gradient(135deg, #2A5298 0%, #7B2FF7 100%);
+  background: #7B2FF7;
   animation: pulseMax 2s infinite;
 }
 @keyframes pulseGreen {
@@ -356,10 +356,10 @@ section { padding: 70px 0; }
   50% { box-shadow: 0 5px 20px rgba(37, 211, 102, 0.7); }
   100% { box-shadow: 0 5px 20px rgba(37, 211, 102, 0.3); }
 }
-@keyframes pulsePurple {
-  0% { box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3); }
-  50% { box-shadow: 0 5px 20px rgba(102, 126, 234, 0.7); }
-  100% { box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3); }
+@keyframes pulseMax {
+  0% { box-shadow: 0 5px 20px rgba(123, 47, 247, 0.3); }
+  50% { box-shadow: 0 5px 20px rgba(123, 47, 247, 0.7); }
+  100% { box-shadow: 0 5px 20px rgba(123, 47, 247, 0.3); }
 }
 @keyframes pulseTelegram {
   0% { box-shadow: 0 5px 20px rgba(42, 171, 238, 0.3); }
