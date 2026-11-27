@@ -1032,7 +1032,37 @@ section {
   margin-bottom: 25px;
   line-height: 1.6;
 }
+/* ============================================
+   ЛОГОТИП
+   ============================================ */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
+.logo-icon {
+  height: 50px;
+  width: auto;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #1e3a5f;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.footer-logo {
+  height: 60px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+/* Адаптивность */
+@media (max-width: 992px) {
+  ...
+}
 /* ============================================
    АДАПТИВНОСТЬ
    ============================================ */
