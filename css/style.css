@@ -1147,3 +1147,7 @@ section {
     padding: 0 20px 15px;
   }
 }
+  .logo-icon {
+    height: 60px;
+    width: auto;
+  }
